@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Camera-X</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="grant">Grant Access</string>
+    <string name="ask_camera_permission">This app needs to access your Camera to Capture Images. \nDo you want to grant this permission ?</string>
+    <string name="flash_off">Off</string>
+    <string name="flash_auto">Auto</string>
+    <string name="flash_on">On</string>
+    <string name="front_camera">Front</string>
+    <string name="exposure">Exposure:</string>
+
+    <string name="camera_access_error">Couldn\'t Initialize the Camera! Allow Access to the Camera and Try Again</string>
+    <string name="error_catching_camera_photo">Couldn\'t Capture the Image. Please Try Again</string>
+    <string name="back_camera">Back</string>
+</resources>

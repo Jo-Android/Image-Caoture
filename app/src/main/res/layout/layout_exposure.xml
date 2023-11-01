@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="13dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/message_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:layout_marginStart="10dp"
+            android:textSize="14sp"
+            android:minLines="1" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:id="@+id/icon" />
+
+    </LinearLayout>
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/exposure"
+        android:valueFrom="0"
+        android:valueTo="40"
+        android:value="0"
+        app:thumbRadius="5dp"
+        app:haloRadius="1dp"
+        app:trackHeight="3dp"
+        app:haloColor="@color/white"
+        app:labelBehavior="gone"
+        app:thumbColor="@color/white"
+        app:trackColorActive="@color/white"
+        app:trackColorInactive="#A1A1A1" />
+
+</LinearLayout>
